@@ -18,10 +18,10 @@ print(phrase)
 glasnie = ['а', 'у', 'е', 'ы', 'о', 'э', 'я', 'и', 'ю', 'ё']
 
 slog = []
-for slovo in phrase:
-    count = len(list(filter(lambda i: i in glasnie, slovo)))
+for word in phrase:
+    count = len(list(filter(lambda i: i in glasnie, word)))
     slog.append(count)
-
+print(slog)
 count = 0
 for i in range(len(slog)):
     if slog[i] == slog[0]:

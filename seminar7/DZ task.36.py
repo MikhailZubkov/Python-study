@@ -16,7 +16,7 @@
 #  6 12 18 24 30 36 
 
 
-def print_operation_table(operation, num_rows=6, num_columns=6):
+def print_operation_table(operation, num_rows=4, num_columns=4):
 
     for i in range(1, num_columns + 1):
         print()
